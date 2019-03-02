@@ -1,21 +1,21 @@
 /* All styles for your header Components live here */
 .Header-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
     
-   
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 100px;
+    height: 90px;
     width: 100%;
 }
 
-.Header-container .head {
-    border: 1px solid black;
+
+
+.head {
     width: 100%;
-    margin-left: 100px;
-    right: 100;
+    margin-bottom: 10px;
 }
 
 .head-title {
