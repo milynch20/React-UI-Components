@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+.Header-container {
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+.logo {
+    max-width: 200px;
+    width: 100%;
+}
+
+.Header-container .head {
+    border: 1px solid black;
+    width: 100%;
+    margin-left: 100px;
+    right: 100;
+}
+
+.head-title {
+    display: flex; 
+    align-items: baseline;
+
+}
+
+h2 {
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+a {
+    padding-right: 10px;
+    color: #d3d3d3;
+}
+
+.head-title p {
+    color: #d3d3d3;
+}
+
+.head-content p {
+    margin-top: 30px;
+}
